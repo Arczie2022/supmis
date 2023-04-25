@@ -1,0 +1,87 @@
+.text-center{
+    font-weight: 800;
+    /*letter-spacing: 2px;*/
+}
+.login-form {
+    width: 400px;
+    margin: 8% auto;
+}
+.login-form form {
+    /*margin-bottom: 15px;*/
+    background: var(--primary_background_color); 
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px 30px 20px 30px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 8px 10px -5px #000;
+    -moz-box-shadow: 0 8px 10px -5px #000;
+    box-shadow: 0 8px 10px -5px #000;
+    color: white;
+    font-family: arial;
+}
+.login-form h2 {
+    /*margin: 0 0 15px;*/
+}
+.form-control, .btn {
+    /*min-height: 38px;*/
+    border-radius: 8px !important;
+    text-align: center !important;
+
+}
+.btn {        
+    margin-top: 5px !important;
+    margin-bottom: 15px !important;
+    font-size: 15px !important;
+    font-weight: bold !important;
+    border-color: white !important;
+    color: white !important;
+    /*width: 300px !important;*/
+    /*margin-left: 0 !important;*/
+}
+.btn:hover{
+    background-color: white !important;
+    color: black !important;
+    border-color: transparent !important;
+}
+select{
+    font-size: 14px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    /*width: 300px;*/
+    /*margin-left: 6%;*/
+}
+input[type="text"], input[type="password"]{
+    font-size: 14px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    background: transparent;
+    color: white !important;
+    border: 0px !important;
+    border-bottom: white solid 1px !important;
+    box-shadow: none !important;
+}
+input[type="text"]:focus, input[type="password"]:focus{
+    color: black !important;
+}
+input[type="text"]::placeholder, input[type="password"]::placeholder {
+    color: white !important;
+}
+body{
+    background: url('content_photos/CNSC-Watermark.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: right;
+}
+.form-control{
+    margin-left: 0px;
+}
+@media only screen and (max-width: 991px) {
+    #divPreference{
+        text-align: center;
+    }
+    #color{
+        margin-top: 10px !important;
+        width: 200%;
+    }
+
+}

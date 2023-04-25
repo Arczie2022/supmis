@@ -1,0 +1,174 @@
+.form-control {
+	margin-left: 3%;
+    border: 0px;
+    border-bottom: var(--primary_background_color) solid 1px;
+    box-shadow: none;
+    
+}
+.select2-selection--multiple{
+    height: 65px !important;
+    overflow-y: auto;
+}
+.form-check{
+    margin-left: 25px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.select2-selection{
+    margin-left: 3% !important;
+    border: 0px !important;
+    border-bottom: var(--primary_background_color) solid 1px !important;
+    box-shadow: none !important;
+    height: 56px !important;
+    width: 100%;
+}
+.select2{
+  width: 100% !important;
+  height: 56px !important;
+}
+.divLabel{
+	margin-left: 2% !important;
+	margin-top: 10px !important;
+	/*margin-bottom: 7% !important;*/
+  /*height: 35px;*/
+}
+.error{
+	margin-left: 4% !important;
+}
+.input-group-append, .input-group{
+	padding: 0 !important;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none !important;
+    border-color: var(--secondary_background_color) !important;
+}
+input:disabled, textarea:disabled, select:disabled{
+  background: #EEEEEE !important;
+  border: 1px dotted var(--primary_background_color);
+  color: black;
+  cursor: not-allowed;
+}
+input[type = "button"]{
+	margin: 0 12px;
+}
+input[type = "submit"]{
+	width: 250px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.submitButton{
+  margin-top: 20px !important;
+  color: var(--primary_background_color);
+  font-size: 25px;
+  padding: 0px 30px;
+  padding-bottom: 5px;
+}
+.submitButton:disabled{
+  background-color: var(--primary_background_color);
+  color: white;
+  cursor: not-allowed;
+}
+input[type = "text"],input[type = "date"], input[type = "number"], 
+input[type = "email"], input[type = "password"], select{
+	font-size: 14px !important;
+	font-weight: 400;
+  height: 56px !important;
+}
+.form-control-sm{
+  height: auto !important;
+}
+textarea {
+	font-size: 14px !important;
+	font-weight: 400;
+	min-height: 56px !important;	
+}
+@media only screen and (max-width: 992px){
+	.form-control {
+		margin-left: 0 !important;
+		margin-right: 1% !important;
+	}
+}
+.group{
+	margin-top: 15px;
+}
+.group input[type="checkbox"] {
+	font-size: 8px;
+	position: relative;
+	min-height: 10px;
+	width: 35px;
+	background: white;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+}
+
+.group input[type="checkbox"]:after { 
+  font-size: 2em;
+  text-align: center;
+  line-height: 25px;
+  color: white;
+  position: absolute;
+  margin: auto auto;
+  left: 0; right: 0; bottom: 0; top: 0;
+  display: block;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--primary_background_color);
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+ }
+
+.group input[type="checkbox"]:before { 
+  position: absolute;
+  margin: auto auto;
+  left: 0; right: 0; bottom: 0; top: 0;
+  content: '';
+  display: block; 
+  height: 35px;
+  width: 35px;
+  border: 2px solid var(--primary_background_color);
+  border-radius: 50%;
+  -webkit-transition: all 0.1s ease-in;
+  -moz-transition: all 0.1s ease-in;
+  -ms-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+
+.group input[type="checkbox"]:hover:before {
+  height: 35px;
+  width: 35px;
+}
+
+.group input[type="checkbox"]:checked:before {
+  background: #F0F0F0;
+  border: none;
+  border-radius: 0;
+  margin-top: -15.5px;
+}
+
+.group input[type="checkbox"]:focus {
+  outline: none;
+}
+
+.group input[type="checkbox"]:after { content: '✘'; } 
+
+.group input[type="checkbox"]:checked:after { content: '✓'; } 
+.labelCheckBox{
+    height: 35px;
+    font-weight: 600;
+    vertical-align: middle;
+    padding-top: 8px;
+    padding-left:5px;
+    margin-left: -5px;
+}

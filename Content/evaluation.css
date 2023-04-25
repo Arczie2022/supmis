@@ -1,0 +1,6 @@
+#divCheck {
+    width: auto;
+    height: 150px;
+    overflow-y: scroll;
+    overflow-x:hidden;
+}

@@ -1,0 +1,186 @@
+input{
+    border-radius: 5px !important;
+}
+#swal2-title{
+    display: block !important;
+}
+.swal2-styled{
+    width: 120px;
+    font-size: 16px !important;    
+}
+.swal2-icon{
+    margin-bottom: 20px !important;
+}
+.swal2-header{
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+}
+.logout{
+    margin-left: auto; 
+    color: white;
+}
+.logout:hover{
+    color: maroon;
+    text-decoration: none;
+}
+.body{
+    background: var(--body_background); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+}
+.table{
+    width: 100% !important;
+}
+
+#LogOut{
+    float: right !important;
+    margin-right: 1.5% !important;
+}
+#LogOutSetting{
+    display: none !important;
+}
+#LogOutName{
+    display: inline;
+}
+
+.instructionLabel{
+    font-family: Arial;
+    margin-left: 2%;
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    
+}
+.circleQM{
+    font-weight: 600; 
+    color: white; 
+    font-size: 15px; 
+    border-radius: 50%; 
+    background-color: var(--primary_background_color); 
+    width: 25px; 
+    text-align: center; 
+    align-self: center; 
+}
+@media only screen and (max-width: 1400px) {
+    .body-content{
+        margin: 0 100px;
+    }
+    .body{
+        background-repeat: repeat;
+        background-size: unset; 
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+    .instructionLabel{
+        font-size: 35px;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    .body-content{
+        margin: 0 20px;
+    }
+    .body{
+        background-repeat: repeat;
+        background-size: unset; 
+    }
+    .modal-content{
+        min-width: 0; 
+        min-height: 0;
+    }
+    #LogOut{
+        width: 100%;
+        margin-right: 0 !important;
+    }
+    #LogOutSetting{
+        display: block !important;
+    }
+    #LogOutName{
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 743px) {
+    .instructionLabel{
+        font-size: 30px;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+}
+@media only screen and (max-width: 663px) {
+    .instructionLabel{
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+@media only screen and (max-width: 582px) {
+
+    .instructionLabel{
+        font-size: 20px;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    .body-content{
+        margin: 0 0;
+    }
+    .bodytitle{
+        font-size: 35px;
+        text-align: center;
+    }
+    .body{
+        background-repeat: repeat;
+        background-size: unset; 
+        background-position: top;
+    }
+}
+.nav-tabs .nav-link  {
+    background-color: white ;
+    color: black ;
+    font-weight: 600 ;
+    border-radius: 7px ;
+    border: solid 2px #838383 ;
+    border-bottom: none ;
+    border-bottom-left-radius: 0px ;
+    border-bottom-right-radius: 0 ;
+    font: arial 15px;
+    cursor: default;
+}
+
+.nav-tabs .nav-link.active {
+
+    background: maroon !important;
+    color: white !important;
+    font-weight: 700;
+
+}
+
+.hr-header{
+    border: solid 1px #d8d8d8;
+    padding: 3px;
+    margin: 15px 0;
+    border-radius: 10px;
+    background-color: white;
+    border-bottom: solid 4px gray;
+    padding-left: 18px;
+}
+
+#list > .select > select{
+    height: 350px !important;
+    border: solid 2px;
+    border-radius: 5px
+}
+
+.listInstance > .select > select > option{
+    border-bottom: 1px solid #203354;
+    padding: 8px;
+    font-size: 17px;
+}
+
+.listInstance > .select > p {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+}

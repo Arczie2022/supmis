@@ -1,0 +1,8 @@
+@page { 
+	size: 11in 8.5in !important;  /* width height */ 
+}
+@media print{
+	@page { 
+		size: 11in 8.5in !important;  /* width height */ 
+	}
+}

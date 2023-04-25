@@ -1,0 +1,92 @@
+.bodyPaper{
+    border: 2px solid black;
+}
+.centerTable{
+    text-align: center;
+}
+.tblmerge{
+    border: 2px solid black;
+    height: 50px;
+}
+.appendix{
+    text-align: right;
+    font-style: italic;
+    font-size: 16px !important;
+}
+.blankTable{
+    border-bottom: 1px solid black;
+}
+.a4paper{
+    min-height:385mm;
+    min-width: 100%;
+    max-height:385mm;
+    max-width: 100%;
+    font-family: Times New Roman;
+}
+.a4paper-landscape{
+    min-width:100%;
+    min-height: 385mm;
+    max-width:100%;
+    max-height: 100%;
+    font-family: Times New Roman;
+}
+.paperHeader{
+    font-size: 16px !important;
+    font-weight: bold;
+}
+.labeltable{
+    font-size: 14px;
+    height: 30px;
+    font-weight: bold;
+}
+.borderBottom{
+    border-bottom: solid 1.5px black !important;  
+}
+.borderTop{
+    border-top: solid 1.5px black !important;  
+}
+.borderLeft{
+    border-left: solid 1.5px black !important;  
+}
+.borderRight{
+    border-right: solid 1.5px black !important;  
+}
+.borderBottom2{
+    border-bottom: solid 2px black !important;  
+}
+.borderTop2{
+    border-top: solid 2px black !important;  
+}
+.borderLeft2{
+    border-left: solid 2px black !important;  
+}
+.borderRight2{
+    border-right: solid 2px black !important;  
+}
+.allBorder{
+    border: 2px solid black !important;
+}
+.dataTableText{
+    height: 30px;
+}
+.signatories{
+    height: 40px;
+}
+table{
+}
+thead,  tfoot { 
+    border: transparent;
+}
+tfoot{
+    min-height: 800px;
+}
+tbody{
+    border: black solid 1px;
+}
+.lastTableBody{
+    height: 50px;
+    border-bottom: 0px;
+}
+.baseText{
+    vertical-align: baseline;
+}
